@@ -94,6 +94,9 @@ html,body{
   text-align:left;
 }
 
+/* keep age phrase together (iOS Safari fix) */
+.age-inline{ white-space:nowrap; }
+
 /* === THE BLUE PILL (1:1 from original) === */
 .enterBtn{
   width: fit-content;
@@ -164,7 +167,8 @@ html,body{
 
       <div class="legalScroll">
         <p class="legal">
-          By accessing PINKMILF, you confirm that you are <strong>18 years of age or older</strong>
+          By accessing PINKMILF, you confirm that you are
+          <span class="age-inline"><strong>18 years of age or older</strong></span>
           (or the age of majority in your country) and that you are <strong>legally permitted</strong> to view adult
           content under the laws of your local jurisdiction.<br><br>
 
